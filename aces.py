@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 def strategy(my_history: list[int], opponent_history: list[int], rounds: int | None) -> int:
     def ema(history: list[int], alpha_value: float) -> float:
         if not history:

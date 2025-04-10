@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 def strategy_round_3(opponent_id: int, my_history: dict[int, list[int]], opponents_history: dict[int, list[int]]) -> tuple[int, int]:
     
     def ema(history: list[int], alpha_value: float) -> float:
