@@ -17,9 +17,9 @@ sys.path.append(str(root_dir))
 
 # --- Benchmark Strategies & ACES Import ---
 try:
-    from aces import strategy as aces_strategy
+    from aces.aces import strategy as aces_strategy
 except ImportError:
-    print("WARNING: Could not import 'aces' strategy. Ensure aces.py is in the root directory.")
+    print("WARNING: Could not import 'aces' strategy.")
     def aces_strategy(my_history: list[int], opponent_history: list[int], rounds: int | None) -> int:
         print("ERROR: ACES strategy not found!")
         return 0
