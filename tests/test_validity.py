@@ -3,7 +3,7 @@ import random
 # -------------------- PASTE YOUR STRATEGY FUNCTION HERE --------------------
 from aces import strategy
 
-from aces_round_3 import strategy_round_3
+from aces.aces_round_3 import strategy_round_3
 # ------------------ DO NOT MODIFY ANY OF THE NEXT CODE ---------------------
 
 def random_opponent_strategy():
